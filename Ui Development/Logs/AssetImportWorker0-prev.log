@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1889; Version 2009; 64bit' Language: 'en' Physical Memory: 16320 MB
+OS: 'Windows 10 Home; OS build 19044.2006; Version 2009; 64bit' Language: 'en' Physical Memory: 16320 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/My own project/Project A v2/Ui Development
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53272
+53583
 Successfully changed project path to: E:/My own project/Project A v2/Ui Development
 E:/My own project/Project A v2/Ui Development
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path D:/Unity/Version/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Version/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Version/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Version/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Version/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001284 seconds.
+Registered in 0.001337 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  1.160 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1070ms)
+	ReloadAssembly (1160ms)
 		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (466ms)
+		EndReloadAssembly (476ms)
 			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (194ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
+				RefreshPlugins (56ms)
 				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003334 seconds.
+Registered in 0.003402 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.300 seconds
+- Completed reload, in  1.249 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1302ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1074ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1023ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
+			SetupTypeCache (330ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (405ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (398ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (231ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (223ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2707 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.1 MB.
-System memory in use after: 123.3 MB.
+Unloading 2722 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.7 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3144.
-Total: 3.667000 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.076300 ms MarkObjects: 3.171000 ms  DeleteObjects: 0.085600 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 4.453100 ms (FindLiveObjects: 0.703600 ms CreateObjectMapping: 0.229700 ms MarkObjects: 3.422300 ms  DeleteObjects: 0.095400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,2523 +132,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/InGame.unity
-  artifactKey: Guid(df04a4065262dfb43ae3cce99776c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InGame.unity using Guid(df04a4065262dfb43ae3cce99776c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfee618363a9e7cb65f1159f171e2dfa') in 0.023121 seconds 
-  Import took 0.027201 seconds .
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2606d5460217673191422da69763393a') in 0.024012 seconds 
+  Import took 0.029015 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Scenes/MainMenu.unity
+  Time since last request: 138.463267 seconds.
+  path: Assets/Scenes/Menu.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c523c8cf37251f8d6b69f5653b1e945') in 0.010186 seconds 
-  Import took 0.014459 seconds .
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f7179b527a0d27c3c370ab172bb19e') in 0.010428 seconds 
+  Import took 0.015388 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003406 seconds.
+Registered in 0.003367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
+- Completed reload, in  1.128 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1199ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1128ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1004ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (359ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
-System memory in use after: 116.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3147.
-Total: 3.765500 ms (FindLiveObjects: 0.360300 ms CreateObjectMapping: 0.076400 ms MarkObjects: 3.295200 ms  DeleteObjects: 0.032000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003319 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (946ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (345ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
-System memory in use after: 116.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3150.
-Total: 3.659400 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.079800 ms MarkObjects: 3.220700 ms  DeleteObjects: 0.021700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003343 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.330 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1330ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1146ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (504ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (384ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.1 MB.
-System memory in use after: 116.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3153.
-Total: 3.560600 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.077500 ms MarkObjects: 3.131300 ms  DeleteObjects: 0.021700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2715.052378 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f339b6be5079b2413e0ff5dfa2a2ca7') in 0.356560 seconds 
-  Import took 0.361905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3524dcc0d4799f61c57bfe4c7a9593cb') in 0.030548 seconds 
-  Import took 0.035421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.143040 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc6d52300e0f2d9a80d1a6b2a265628') in 0.067414 seconds 
-  Import took 0.072690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.685404 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.014063 seconds 
-  Import took 0.018455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.951326 seconds.
-  path: Assets/Assests/Blender Assests
-  artifactKey: Guid(34517d02114d86345b2cb708bc1bdbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Blender Assests using Guid(34517d02114d86345b2cb708bc1bdbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8537cc198f7d0f0bb2f4efccc73614b7') in 0.014132 seconds 
-  Import took 0.018683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.741999 seconds.
-  path: Assets/Assests/Blender Assests/JapaneseHouse.blend
-  artifactKey: Guid(d7a3cfa171a76124c85059c4d8867338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Blender Assests/JapaneseHouse.blend using Guid(d7a3cfa171a76124c85059c4d8867338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13177ce3a2c6526c2a21f770b55a74c') in 0.012038 seconds 
-  Import took 0.017045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.943447 seconds.
-  path: Assets/Assests/Blender Assests/JapaneseHouse.blend1
-  artifactKey: Guid(c696a4753fdfcf54dabe784f4a2cad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Blender Assests/JapaneseHouse.blend1 using Guid(c696a4753fdfcf54dabe784f4a2cad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67a8058fc9115c5422e96f29dc59cec') in 0.012674 seconds 
-  Import took 0.017065 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004104 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.213 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1213ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (996ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (339ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (346ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.3 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3273.
-Total: 3.965800 ms (FindLiveObjects: 0.342900 ms CreateObjectMapping: 0.082700 ms MarkObjects: 3.195600 ms  DeleteObjects: 0.343600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 152.591617 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db4ae83114342316399a08fd746133d') in 0.239236 seconds 
-  Import took 0.244547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
-  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce83685e47bbe0ac8864386e272c8bae') in 0.029773 seconds 
-  Import took 0.034857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
-  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149c579cee6b2fcea77de4a516a632bd') in 0.027838 seconds 
-  Import took 0.032574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db0a018475331b553573e4b5215231d') in 0.031196 seconds 
-  Import took 0.035894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.564925 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5abf9f548faa24ece1400d267262a9d') in 0.031243 seconds 
-  Import took 0.036092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.780154 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(368bebefa980cb34fa4c8ec56fffb785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(368bebefa980cb34fa4c8ec56fffb785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e892faf51a0855ace360935c59d3df1e') in 0.014298 seconds 
-  Import took 0.018745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.262998 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras
-  artifactKey: Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras using Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3cf4d2f68a1ab192bd0aaafbdee761') in 0.014728 seconds 
-  Import took 0.019619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.370280 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts
-  artifactKey: Guid(b63e0053080646b9819789bf3bf9fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts using Guid(b63e0053080646b9819789bf3bf9fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0438bf6cd03601537939cd04c15a122c') in 0.014600 seconds 
-  Import took 0.019390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069253 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0131741fae7737b8b1f8425e6e876c0e') in 0.021986 seconds 
-  Import took 0.026595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
-  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac11bb3a99ef663816ec2973cdccc0eb') in 0.022415 seconds 
-  Import took 0.026500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae50af442e4a576ed5ba486e3b0acc7') in 0.026502 seconds 
-  Import took 0.031036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
-  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65759c4f669664b23c4718082b19419b') in 0.031151 seconds 
-  Import took 0.035460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
-  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23040dba5a58b0286dc1586f03dc32c3') in 0.023539 seconds 
-  Import took 0.027627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 276.779211 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed51e989ad31b0b19d61182027136f2b') in 0.047054 seconds 
-  Import took 0.052382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
-  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d45b801ca899135743c4bbd67753335') in 0.043208 seconds 
-  Import took 0.048074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7875d909ccea32e236433f227d5801b1') in 0.042006 seconds 
-  Import took 0.046534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Assests/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba26f449e2a886faebc24e82229979b') in 0.031328 seconds 
-  Import took 0.035554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
-  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ec9f6320418c56b2e8d2c4186ae173') in 0.040692 seconds 
-  Import took 0.044954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc128041b5accbe741d814c3983bf0f') in 0.043772 seconds 
-  Import took 0.048498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.450991 seconds.
-  path: Assets/Assests/Font
-  artifactKey: Guid(5d19d53190a16d147938a15c3c070fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font using Guid(5d19d53190a16d147938a15c3c070fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd37cca7aa1be69b0615e017c54f3386') in 0.014800 seconds 
-  Import took 0.019821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057594 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Black.otf
-  artifactKey: Guid(3e1ec2460620af345a0c5c27b4d2548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Black.otf using Guid(3e1ec2460620af345a0c5c27b4d2548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0836199f5197c8567f1ab7aefc22e7d9') in 0.029832 seconds 
-  Import took 0.034412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-SemiBold.otf
-  artifactKey: Guid(f4172e986e0115b489e9b04ad971f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-SemiBold.otf using Guid(f4172e986e0115b489e9b04ad971f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845714b05d9d91f9ff67bf24f9de6f77') in 0.029043 seconds 
-  Import took 0.033246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Bold.otf
-  artifactKey: Guid(cf8b79994a9c9f549ac234cf1d533254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Bold.otf using Guid(cf8b79994a9c9f549ac234cf1d533254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec87a900dd459b6bb41fe9732df2edf3') in 0.027792 seconds 
-  Import took 0.031993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-ExtraLight.otf
-  artifactKey: Guid(35f011ade082b1347b6659885f780d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-ExtraLight.otf using Guid(35f011ade082b1347b6659885f780d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcc2ed37600fcdc9db7b7ba019e1b1f') in 0.026283 seconds 
-  Import took 0.030488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Medium.otf
-  artifactKey: Guid(9af7b01056de324469e78c1df8fc1802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Medium.otf using Guid(9af7b01056de324469e78c1df8fc1802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f67484e13ad73cd8548a8570cc3e05') in 0.027657 seconds 
-  Import took 0.032122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Light.otf
-  artifactKey: Guid(541ff0dc60ae40c498c143e68eff3721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Light.otf using Guid(541ff0dc60ae40c498c143e68eff3721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306580412dcb1b8c026defa99c590d1d') in 0.030776 seconds 
-  Import took 0.035566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Regular.otf
-  artifactKey: Guid(2da3bc0b9ca863c438b6609c40265262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Regular.otf using Guid(2da3bc0b9ca863c438b6609c40265262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02953188ec5158e52ee6de7b02eac664') in 0.030352 seconds 
-  Import took 0.034399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.887504 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Black SDF.asset
-  artifactKey: Guid(2c8322bae84a5d943aa4c07abad2774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Black SDF.asset using Guid(2c8322bae84a5d943aa4c07abad2774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e8a0a43b07635d51f86565f2bb45a5') in 0.043660 seconds 
-  Import took 0.048627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.150245 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Black SDF.asset
-  artifactKey: Guid(2c8322bae84a5d943aa4c07abad2774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Black SDF.asset using Guid(2c8322bae84a5d943aa4c07abad2774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f57d02598af352297065bd44cd928e') in 0.038900 seconds 
-  Import took 0.043657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Bold SDF.asset
-  artifactKey: Guid(a142ae3a548707f42af2c42ba12aa146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Bold SDF.asset using Guid(a142ae3a548707f42af2c42ba12aa146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76adda21e300e9aeedba9818e4e1c5c') in 0.042666 seconds 
-  Import took 0.047184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.217930 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-ExtraLight SDF.asset
-  artifactKey: Guid(f9b2becb2f251f549a1cb74246bda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-ExtraLight SDF.asset using Guid(f9b2becb2f251f549a1cb74246bda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30adc8ad92cb9bf501d1a018a275f9f9') in 0.042395 seconds 
-  Import took 0.047336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.651298 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Light SDF.asset
-  artifactKey: Guid(a744a3776615d374884a4467c8db7406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Light SDF.asset using Guid(a744a3776615d374884a4467c8db7406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fd6891bbe1efab1f5f545056f8de87') in 0.042859 seconds 
-  Import took 0.048072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.916059 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Medium SDF.asset
-  artifactKey: Guid(edbb6b29523aebd4f82f094b2aa5b71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Medium SDF.asset using Guid(edbb6b29523aebd4f82f094b2aa5b71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5026d63965c219d8c8ed9fa63ba968fc') in 0.042059 seconds 
-  Import took 0.046905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.781078 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-Regular SDF.asset
-  artifactKey: Guid(6a18fc967eaf39c4f8b28ec60a08ffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-Regular SDF.asset using Guid(6a18fc967eaf39c4f8b28ec60a08ffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57701ddeba03f9fdd19b236f979ce2b') in 0.041639 seconds 
-  Import took 0.046546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.876050 seconds.
-  path: Assets/Assests/Font/NotoSerifJP-SemiBold SDF.asset
-  artifactKey: Guid(e6fca2099ea46a84fba20f630e526a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/NotoSerifJP-SemiBold SDF.asset using Guid(e6fca2099ea46a84fba20f630e526a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1292340dd9e766cc90fda820db79aade') in 0.041741 seconds 
-  Import took 0.046741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.914799 seconds.
-  path: Assets/Assests/Font/Noto_Sans_JP
-  artifactKey: Guid(d19c505f434af614f8211c9632f9e78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Sans_JP using Guid(d19c505f434af614f8211c9632f9e78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3013f6d7584d1ad8d828106c67866f') in 0.010641 seconds 
-  Import took 0.015302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083878 seconds.
-  path: Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Black.otf
-  artifactKey: Guid(5291817676ae65241b34eb13a1d65995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Black.otf using Guid(5291817676ae65241b34eb13a1d65995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30c8508a678d82de270e38d31e8bca3') in 0.024872 seconds 
-  Import took 0.029488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Medium.otf
-  artifactKey: Guid(9afe629fb4d151f4986de1c402cf8353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Medium.otf using Guid(9afe629fb4d151f4986de1c402cf8353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b629f9f37460d9d587a64c1abfd559f6') in 0.030377 seconds 
-  Import took 0.034890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Thin.otf
-  artifactKey: Guid(7be9cf6ae74213f4fafadd6df3bfcf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Thin.otf using Guid(7be9cf6ae74213f4fafadd6df3bfcf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5351c2b51d5bcbc03cd7af78f74ae1') in 0.030405 seconds 
-  Import took 0.034708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Bold.otf
-  artifactKey: Guid(b81c8a6c5828de24bb7264646306ce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Bold.otf using Guid(b81c8a6c5828de24bb7264646306ce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192c68e3b16900fe53cdbf038ce777e3') in 0.028576 seconds 
-  Import took 0.033389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Light.otf
-  artifactKey: Guid(20c83230e6c37794b9575c09fd8cc006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Light.otf using Guid(20c83230e6c37794b9575c09fd8cc006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81665538e50380b563b689f2d02637b7') in 0.030231 seconds 
-  Import took 0.034598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Regular.otf
-  artifactKey: Guid(d8b6106447c95444791687cda1b7d430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Sans_JP/NotoSansJP-Regular.otf using Guid(d8b6106447c95444791687cda1b7d430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c9aac9f964f4fe7ad216dcafd62630') in 0.030000 seconds 
-  Import took 0.034534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.189506 seconds.
-  path: Assets/Assests/Font/OFL.txt
-  artifactKey: Guid(b82cf7b8d45a9f548a7062d7e10fae0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/OFL.txt using Guid(b82cf7b8d45a9f548a7062d7e10fae0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfa0d36b969a0a20cb63d3d6e657107') in 0.021682 seconds 
-  Import took 0.026241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.139480 seconds.
-  path: Assets/Assests/Font/Noto_Serif_JP.zip
-  artifactKey: Guid(291b38a64f20aed4a9c86e1e17ce494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Font/Noto_Serif_JP.zip using Guid(291b38a64f20aed4a9c86e1e17ce494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa816d0033b5ef43cb7f172bf17a5480') in 0.014837 seconds 
-  Import took 0.019343 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003290 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.188 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1188ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (983ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (340ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.1 MB.
-System memory in use after: 123.8 MB.
-
-Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 3280.
-Total: 4.408900 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.076800 ms MarkObjects: 3.623900 ms  DeleteObjects: 0.363500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003225 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.173 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1174ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (977ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.9 MB.
-System memory in use after: 123.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3284.
-Total: 4.291800 ms (FindLiveObjects: 0.361600 ms CreateObjectMapping: 0.074600 ms MarkObjects: 3.498900 ms  DeleteObjects: 0.355000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1009.150175 seconds.
-  path: Assets/SU3DJPFont
-  artifactKey: Guid(9c8f914910cd7a84b881a73af9d76426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont using Guid(9c8f914910cd7a84b881a73af9d76426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a877dd3790474889a5c145b8f606f1') in 0.018941 seconds 
-  Import took 0.023798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.963922 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont
-  artifactKey: Guid(4b7d2e2adb47943409507c359aea2d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont using Guid(4b7d2e2adb47943409507c359aea2d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63d1d6337c9a007c34ddc9d1798b79a') in 0.014243 seconds 
-  Import took 0.018615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.321470 seconds.
-  path: Assets/SU3DJPFont/Fonts
-  artifactKey: Guid(9e26e0c931f64c44799647ea7fd00b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts using Guid(9e26e0c931f64c44799647ea7fd00b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd944a968bf200480158e92a89ace10d') in 0.014217 seconds 
-  Import took 0.018905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.175354 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-black SDF.asset
-  artifactKey: Guid(12c27379b39e44346813b13ec333d516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-black SDF.asset using Guid(12c27379b39e44346813b13ec333d516) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1c-black SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '7ed3db124e54a20f37056d981a4c992e') in 0.334841 seconds 
-  Import took 0.339407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-light SDF.asset
-  artifactKey: Guid(da6dd765a7de9fc4b9068a014571ed7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-light SDF.asset using Guid(da6dd765a7de9fc4b9068a014571ed7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1c-light SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'ab44e41173669547818e7ddaaf16a7bc') in 0.103945 seconds 
-  Import took 0.108333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-bold SDF.asset
-  artifactKey: Guid(2b3dd3afc421f9d44bd2945344e7c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-bold SDF.asset using Guid(2b3dd3afc421f9d44bd2945344e7c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1p-bold SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '5bed70beca187cc424af43320f36a4d6') in 0.105041 seconds 
-  Import took 0.109211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-heavy SDF.asset
-  artifactKey: Guid(485926a3a0f8f154a8d88a9dc497e850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-heavy SDF.asset using Guid(485926a3a0f8f154a8d88a9dc497e850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1c-heavy SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '8af726d1d3ae902add31682a0bd89906') in 0.106016 seconds 
-  Import took 0.110154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-medium SDF.asset
-  artifactKey: Guid(8b36acc553cf3014fb9e5610c3d60a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-medium SDF.asset using Guid(8b36acc553cf3014fb9e5610c3d60a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1c-medium SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'a434d7878523ea746367f1f8cd98a177') in 0.101924 seconds 
-  Import took 0.105954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-regular SDF.asset
-  artifactKey: Guid(984bc697a12925f468a54076cca5a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-regular SDF.asset using Guid(984bc697a12925f468a54076cca5a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1m-regular SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '68366bb4310f7eec3c24ada36c8d7740') in 0.103718 seconds 
-  Import took 0.108619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-regular SDF.asset
-  artifactKey: Guid(74633e2bc53bbb34fb92780a18551c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-regular SDF.asset using Guid(74633e2bc53bbb34fb92780a18551c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2c-regular SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '094cf40bd151e3200400ac2e3a86a4ba') in 0.102393 seconds 
-  Import took 0.106851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-thin SDF.asset
-  artifactKey: Guid(254846f4ed1a55047b794ef5c57e9ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-thin SDF.asset using Guid(254846f4ed1a55047b794ef5c57e9ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2p-thin SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'fecaee06a5cb95a6a31266071bc27b1a') in 0.097629 seconds 
-  Import took 0.101662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-black SDF.asset
-  artifactKey: Guid(f9215b90cd5de96469c85530662b8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-black SDF.asset using Guid(f9215b90cd5de96469c85530662b8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2p-black SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'ba1847b96cb08a7f4c4a6a136957e7ae') in 0.106066 seconds 
-  Import took 0.110383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-medium SDF.asset
-  artifactKey: Guid(df6a9633926bea8458e6d31c7fe6a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-medium SDF.asset using Guid(df6a9633926bea8458e6d31c7fe6a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2m-medium SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '8f6fa58ae9ebb384013289c50758ae26') in 0.102792 seconds 
-  Import took 0.107282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-regular SDF.asset
-  artifactKey: Guid(f10d6a9661f63094e97279668785d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-regular SDF.asset using Guid(f10d6a9661f63094e97279668785d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1mn-regular SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '8cd2009e86992baeb8fce951f7acae9d') in 0.099170 seconds 
-  Import took 0.103315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-heavy SDF.asset
-  artifactKey: Guid(6bd09f3074e111f48b61b0ea95020654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-heavy SDF.asset using Guid(6bd09f3074e111f48b61b0ea95020654) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2c-heavy SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'ae3a53cf4eaa10760aeaf47c164d3d50') in 0.101442 seconds 
-  Import took 0.106526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-bold SDF.asset
-  artifactKey: Guid(fd903416ccaef7c44a3cf18eb9e1ab60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-bold SDF.asset using Guid(fd903416ccaef7c44a3cf18eb9e1ab60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2p-bold SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '06cee4a5700cee12afd2fbc9a20b98c1') in 0.104098 seconds 
-  Import took 0.108856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-light SDF.asset
-  artifactKey: Guid(fcd455ab112b0a842a2b67aa57afd741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-light SDF.asset using Guid(fcd455ab112b0a842a2b67aa57afd741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1mn-light SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '141fc6d23f51ba96d92720858ede809b') in 0.101239 seconds 
-  Import took 0.105725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-bold SDF.asset
-  artifactKey: Guid(cdd7b830eb46ebb42abfec333821465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-bold SDF.asset using Guid(cdd7b830eb46ebb42abfec333821465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1c-bold SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '0f0124e6efb8a1676b54118007c02f04') in 0.101764 seconds 
-  Import took 0.106589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-medium SDF.asset
-  artifactKey: Guid(31f8b3fb793f1c748bc6d7d30a21a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-medium SDF.asset using Guid(31f8b3fb793f1c748bc6d7d30a21a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2c-medium SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '8968e32e67e859debe76f2b09b3f896a') in 0.100972 seconds 
-  Import took 0.105166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-light SDF.asset
-  artifactKey: Guid(69235bbac6067234daeb5c3fe82df89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-light SDF.asset using Guid(69235bbac6067234daeb5c3fe82df89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1p-light SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'a4d142dd44a1e901af6aa48964bf10a2') in 0.103482 seconds 
-  Import took 0.107498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-medium SDF.asset
-  artifactKey: Guid(08da0bd69441860428c853b63835cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-medium SDF.asset using Guid(08da0bd69441860428c853b63835cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1mn-medium SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'bc9feda7726b934eee6558bba403976e') in 0.100945 seconds 
-  Import took 0.104986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-heavy SDF.asset
-  artifactKey: Guid(c1fe470c24d703a46af8b363646ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-heavy SDF.asset using Guid(c1fe470c24d703a46af8b363646ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1p-heavy SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '83c5e5a929b7acbc3be48a7d9cb051ea') in 0.101817 seconds 
-  Import took 0.105968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-light SDF.asset
-  artifactKey: Guid(cc73e756710017048be3180191be6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-light SDF.asset using Guid(cc73e756710017048be3180191be6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2c-light SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'b9c5e2e906518887f7e52e49daadab41') in 0.098440 seconds 
-  Import took 0.102460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-medium SDF.asset
-  artifactKey: Guid(6f27848c0a0f6284aad6e3cb3817e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-medium SDF.asset using Guid(6f27848c0a0f6284aad6e3cb3817e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1p-medium SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '32856566b86d678590f02f565123bd63') in 0.101159 seconds 
-  Import took 0.105551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-medium SDF.asset
-  artifactKey: Guid(07f123dbf7500654da7928434dafbb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-medium SDF.asset using Guid(07f123dbf7500654da7928434dafbb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1m-medium SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'df43fa5a0aa950cb0083fab8b3122350') in 0.101707 seconds 
-  Import took 0.105869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-thin SDF.asset
-  artifactKey: Guid(cf759ee9428512f43bacb49e6caf5c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-thin SDF.asset using Guid(cf759ee9428512f43bacb49e6caf5c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1mn-thin SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '8f33d4211e0739dbec818aa0d0caddd6') in 0.098425 seconds 
-  Import took 0.102627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-medium SDF.asset
-  artifactKey: Guid(8f8db4c6b8dc2844d931e4b0f1d3611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-medium SDF.asset using Guid(8f8db4c6b8dc2844d931e4b0f1d3611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2p-medium SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '41ddb77428bc66a938ddf9eb33ee5d12') in 0.105956 seconds 
-  Import took 0.110456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-light SDF.asset
-  artifactKey: Guid(bbd8a03c4e0a6c74db2ea422d56165b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-light SDF.asset using Guid(bbd8a03c4e0a6c74db2ea422d56165b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2m-light SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'cd411080887cb1b6ee050b979de51f73') in 0.100152 seconds 
-  Import took 0.104249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-thin SDF.asset
-  artifactKey: Guid(63fc1fdea266fce49a93f347f02e3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-thin SDF.asset using Guid(63fc1fdea266fce49a93f347f02e3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1c-thin SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'b0d430d7e03fa69242e330d5b9d8cc41') in 0.098856 seconds 
-  Import took 0.103313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-regular SDF.asset
-  artifactKey: Guid(6f29556881f728c4f8190848e4538fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-regular SDF.asset using Guid(6f29556881f728c4f8190848e4538fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2p-regular SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '537789bc1f6910841d86feae60ee63e5') in 0.099125 seconds 
-  Import took 0.103587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-bold SDF.asset
-  artifactKey: Guid(ce6cd73bef87e7c448c767a5aa75994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-bold SDF.asset using Guid(ce6cd73bef87e7c448c767a5aa75994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2c-bold SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '24fef8f77307854dc5926d6c11fc90b2') in 0.102849 seconds 
-  Import took 0.106915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-light SDF.asset
-  artifactKey: Guid(a0e909b4601d95e4fb0464261cdac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-light SDF.asset using Guid(a0e909b4601d95e4fb0464261cdac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2p-light SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '79c30da147fd4de9ae335ddcfd340c40') in 0.113659 seconds 
-  Import took 0.118295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-black SDF.asset
-  artifactKey: Guid(6d52bac519b2d9642a9989eda8b36b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-black SDF.asset using Guid(6d52bac519b2d9642a9989eda8b36b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1p-black SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '960480556503a202c2cc8a11eed7c401') in 0.105907 seconds 
-  Import took 0.110380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-light SDF.asset
-  artifactKey: Guid(1447738d5ea80244f8423ebedc6e8612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-light SDF.asset using Guid(1447738d5ea80244f8423ebedc6e8612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1m-light SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '872417bfe85b7a5151e3a8082d680e4b') in 0.097880 seconds 
-  Import took 0.101951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-regular SDF.asset
-  artifactKey: Guid(c2b6fe52bf6e9234184ddcaffd6bde96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-regular SDF.asset using Guid(c2b6fe52bf6e9234184ddcaffd6bde96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2m-regular SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'a51da5b8c33ec90cfe49a3c1f844ac90') in 0.101817 seconds 
-  Import took 0.105891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-bold SDF.asset
-  artifactKey: Guid(aaef09b2bc6f1ed4d95749b6629032da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-bold SDF.asset using Guid(aaef09b2bc6f1ed4d95749b6629032da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1m-bold SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '54a17de5d3bbc7649de3f86036329e4f') in 0.101513 seconds 
-  Import took 0.105937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-thin SDF.asset
-  artifactKey: Guid(009e09fc66848ab4fa3d6b116e18dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-thin SDF.asset using Guid(009e09fc66848ab4fa3d6b116e18dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1p-thin SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '7f8c293eb281506d6982d267ab94528c') in 0.098571 seconds 
-  Import took 0.103252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-regular SDF.asset
-  artifactKey: Guid(9d36de8f1d37e3f4b959c51720825d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-regular SDF.asset using Guid(9d36de8f1d37e3f4b959c51720825d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1p-regular SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '6261adc7d84dab51b50cf0d81b410627') in 0.101473 seconds 
-  Import took 0.105755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-black SDF.asset
-  artifactKey: Guid(90fa71e449dfb7445bed4a4df25a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-black SDF.asset using Guid(90fa71e449dfb7445bed4a4df25a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2c-black SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '671999891a04900903bce5d40e78ad78') in 0.102705 seconds 
-  Import took 0.106932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-thin SDF.asset
-  artifactKey: Guid(260ee7a26c62f474c8ea5be16a214677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-thin SDF.asset using Guid(260ee7a26c62f474c8ea5be16a214677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2c-thin SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '11f375cb355e0ce67be80ef3fe864f2c') in 0.102389 seconds 
-  Import took 0.107907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-regular SDF.asset
-  artifactKey: Guid(5d9fd4cc1d3d4e64d8f49020f6f51b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-regular SDF.asset using Guid(5d9fd4cc1d3d4e64d8f49020f6f51b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1c-regular SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '0cb9b3e538cbd31471dacf63a7236d4b') in 0.100204 seconds 
-  Import took 0.104221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-thin SDF.asset
-  artifactKey: Guid(5d1e22d4f8cc6634cba9e8a034126ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-thin SDF.asset using Guid(5d1e22d4f8cc6634cba9e8a034126ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2m-thin SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'ee831050a6f3c047d413fe2cd81b1edf') in 0.100138 seconds 
-  Import took 0.104532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-bold SDF.asset
-  artifactKey: Guid(122fd77c99b4c11418c5b92968e30e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-bold SDF.asset using Guid(122fd77c99b4c11418c5b92968e30e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2m-bold SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '0089babe3cdfec8dc9ab57e848e81573') in 0.104352 seconds 
-  Import took 0.108745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-thin SDF.asset
-  artifactKey: Guid(30349895a8d181f48906005bb7b34ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-thin SDF.asset using Guid(30349895a8d181f48906005bb7b34ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1m-thin SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'a8d73be15e5c7c56e4a394465574f6aa') in 0.103817 seconds 
-  Import took 0.108456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-heavy SDF.asset
-  artifactKey: Guid(6628e6c3d971ee34f89d02292ab473ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-heavy SDF.asset using Guid(6628e6c3d971ee34f89d02292ab473ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-2p-heavy SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: 'd026d956b12d3164e7a3c12131ac532a') in 0.112783 seconds 
-  Import took 0.117183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-bold SDF.asset
-  artifactKey: Guid(09bb5f87b12efc743871ab9dee64c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-bold SDF.asset using Guid(09bb5f87b12efc743871ab9dee64c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Upgrading font asset [mplus-1mn-bold SDF] to version 1.1.0.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:Log (object,UnityEngine.Object)
-TMPro.TMP_FontAsset:UpgradeFontAsset () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:2865)
-TMPro.TMP_FontAsset:ReadFontAssetDefinition () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:569)
-TMPro.TMP_FontAsset:OnValidate () (at Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs:555)
-
-(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 2865)
-
- -> (artifact id: '0a6830d21d2ba0257a02b8ddb963d8cf') in 0.103442 seconds 
-  Import took 0.107648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10186.283272 seconds.
-  path: Assets/Scenes/InGame.unity
-  artifactKey: Guid(df04a4065262dfb43ae3cce99776c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InGame.unity using Guid(df04a4065262dfb43ae3cce99776c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64235362d76fa730511d4d7e556463f') in 0.016008 seconds 
-  Import took 0.020744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.835730 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8b11beb8fc1c8d87ff3f94ae7bcfdb') in 0.010758 seconds 
-  Import took 0.015313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 99.449494 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-black SDF.asset
-  artifactKey: Guid(12c27379b39e44346813b13ec333d516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-black SDF.asset using Guid(12c27379b39e44346813b13ec333d516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9f1c1891b29b05ee8129019f6b8914') in 0.135018 seconds 
-  Import took 0.139476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-light SDF.asset
-  artifactKey: Guid(da6dd765a7de9fc4b9068a014571ed7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-light SDF.asset using Guid(da6dd765a7de9fc4b9068a014571ed7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506b9394107a038d9de71c2bb4ed3a22') in 0.110303 seconds 
-  Import took 0.114359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-bold SDF.asset
-  artifactKey: Guid(2b3dd3afc421f9d44bd2945344e7c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-bold SDF.asset using Guid(2b3dd3afc421f9d44bd2945344e7c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed97f8d4cb3e1c6e0b9e7fe3252ddbd') in 0.111454 seconds 
-  Import took 0.115524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-heavy SDF.asset
-  artifactKey: Guid(485926a3a0f8f154a8d88a9dc497e850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-heavy SDF.asset using Guid(485926a3a0f8f154a8d88a9dc497e850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8932abc57ede9d3e57c500446f16a12') in 0.113803 seconds 
-  Import took 0.118732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-medium SDF.asset
-  artifactKey: Guid(8b36acc553cf3014fb9e5610c3d60a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-medium SDF.asset using Guid(8b36acc553cf3014fb9e5610c3d60a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f530d7887bdf14421a12a2978ad8ac4c') in 0.115034 seconds 
-  Import took 0.119711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-medium SDF.asset
-  artifactKey: Guid(df6a9633926bea8458e6d31c7fe6a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-medium SDF.asset using Guid(df6a9633926bea8458e6d31c7fe6a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7cd5445a0fb39f32c86dbe0eaeaa02') in 0.113130 seconds 
-  Import took 0.117428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-regular SDF.asset
-  artifactKey: Guid(f10d6a9661f63094e97279668785d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-regular SDF.asset using Guid(f10d6a9661f63094e97279668785d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d87651b3d97329b335b160fa5b1eee1') in 0.110863 seconds 
-  Import took 0.115306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-heavy SDF.asset
-  artifactKey: Guid(6bd09f3074e111f48b61b0ea95020654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-heavy SDF.asset using Guid(6bd09f3074e111f48b61b0ea95020654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fe800d7778ffe47403cd485949ab7d') in 0.110994 seconds 
-  Import took 0.115606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-light SDF.asset
-  artifactKey: Guid(fcd455ab112b0a842a2b67aa57afd741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-light SDF.asset using Guid(fcd455ab112b0a842a2b67aa57afd741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b85b84e1cf245f6c9df7083eca8e2bd') in 0.108082 seconds 
-  Import took 0.112454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-medium SDF.asset
-  artifactKey: Guid(31f8b3fb793f1c748bc6d7d30a21a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-medium SDF.asset using Guid(31f8b3fb793f1c748bc6d7d30a21a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14279ca98e36f82e08f2beaf03b93f3') in 0.108787 seconds 
-  Import took 0.112842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-light SDF.asset
-  artifactKey: Guid(a0e909b4601d95e4fb0464261cdac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-light SDF.asset using Guid(a0e909b4601d95e4fb0464261cdac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b19bb9b619800e916a06e56dce77ce') in 0.109040 seconds 
-  Import took 0.113531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-medium SDF.asset
-  artifactKey: Guid(08da0bd69441860428c853b63835cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-medium SDF.asset using Guid(08da0bd69441860428c853b63835cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd491e3d3524ad910d697c306b67bb60e') in 0.111854 seconds 
-  Import took 0.116339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-heavy SDF.asset
-  artifactKey: Guid(c1fe470c24d703a46af8b363646ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-heavy SDF.asset using Guid(c1fe470c24d703a46af8b363646ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0ead6820d013e0db9df9b206eb0584') in 0.111036 seconds 
-  Import took 0.115382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-light SDF.asset
-  artifactKey: Guid(cc73e756710017048be3180191be6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-light SDF.asset using Guid(cc73e756710017048be3180191be6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2f25fe518a713596fa60a8790b3326') in 0.107503 seconds 
-  Import took 0.111490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-light SDF.asset
-  artifactKey: Guid(bbd8a03c4e0a6c74db2ea422d56165b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-light SDF.asset using Guid(bbd8a03c4e0a6c74db2ea422d56165b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a31dd32da749fef366fae44e65bba5') in 0.107445 seconds 
-  Import took 0.111962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-medium SDF.asset
-  artifactKey: Guid(8f8db4c6b8dc2844d931e4b0f1d3611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-medium SDF.asset using Guid(8f8db4c6b8dc2844d931e4b0f1d3611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341a7577f2c402e2103e41397c12d33f') in 0.108386 seconds 
-  Import took 0.112575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-thin SDF.asset
-  artifactKey: Guid(63fc1fdea266fce49a93f347f02e3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-thin SDF.asset using Guid(63fc1fdea266fce49a93f347f02e3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b3e8c9875262d4dd40c2542034a15f') in 0.113931 seconds 
-  Import took 0.117855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-regular SDF.asset
-  artifactKey: Guid(6f29556881f728c4f8190848e4538fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-regular SDF.asset using Guid(6f29556881f728c4f8190848e4538fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8376f9abef4aae12f2a4c6cfe0c5ef7') in 0.110653 seconds 
-  Import took 0.114674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-regular SDF.asset
-  artifactKey: Guid(c2b6fe52bf6e9234184ddcaffd6bde96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-regular SDF.asset using Guid(c2b6fe52bf6e9234184ddcaffd6bde96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c9e3553ca1abcd8a7b77c57c05429') in 0.108559 seconds 
-  Import took 0.112898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-bold SDF.asset
-  artifactKey: Guid(aaef09b2bc6f1ed4d95749b6629032da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-bold SDF.asset using Guid(aaef09b2bc6f1ed4d95749b6629032da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26512c7ee0b93e7a5bd70816bcdeb2e0') in 0.108930 seconds 
-  Import took 0.113292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-thin SDF.asset
-  artifactKey: Guid(009e09fc66848ab4fa3d6b116e18dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-thin SDF.asset using Guid(009e09fc66848ab4fa3d6b116e18dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d83b105f7e548a6d55b8a4aaeffd96') in 0.106815 seconds 
-  Import took 0.110807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-black SDF.asset
-  artifactKey: Guid(90fa71e449dfb7445bed4a4df25a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-black SDF.asset using Guid(90fa71e449dfb7445bed4a4df25a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8dd3c49c9bd7bcf5cd1a00b8090f19') in 0.110197 seconds 
-  Import took 0.114271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-regular SDF.asset
-  artifactKey: Guid(5d9fd4cc1d3d4e64d8f49020f6f51b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-regular SDF.asset using Guid(5d9fd4cc1d3d4e64d8f49020f6f51b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8213ca8c9618996f344ebac3fe2cbfa2') in 0.111965 seconds 
-  Import took 0.115892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-bold SDF.asset
-  artifactKey: Guid(122fd77c99b4c11418c5b92968e30e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-bold SDF.asset using Guid(122fd77c99b4c11418c5b92968e30e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f83734ff019d7ed8ca986b8f7cd43e') in 0.109412 seconds 
-  Import took 0.113431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-bold SDF.asset
-  artifactKey: Guid(09bb5f87b12efc743871ab9dee64c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1mn-bold SDF.asset using Guid(09bb5f87b12efc743871ab9dee64c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0c0038ccfd3b8d5328ad595d0711c5') in 0.112694 seconds 
-  Import took 0.116761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.076357 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a62ded6d0cdeca984a0731fcacaa00') in 0.010603 seconds 
-  Import took 0.015086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.634693 seconds.
-  path: Assets/SU3DJPFont/Demo/Materials/Block.mat
-  artifactKey: Guid(6ba76f89ead89cb48a67de6069a5461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Demo/Materials/Block.mat using Guid(6ba76f89ead89cb48a67de6069a5461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46b42dbdc5b3f64baf206b361d23751') in 0.028040 seconds 
-  Import took 0.032654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-black.ttf
-  artifactKey: Guid(e1ad4755b7977484ca371b50c9b219d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-black.ttf using Guid(e1ad4755b7977484ca371b50c9b219d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f1a2daa9f9f961fb505c12d862c4c8') in 0.024355 seconds 
-  Import took 0.028967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-medium.ttf
-  artifactKey: Guid(8d804c8863accb0458362d2fa96ac648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-medium.ttf using Guid(8d804c8863accb0458362d2fa96ac648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8235126b8eb8046e77eb4f990a8ec39e') in 0.024761 seconds 
-  Import took 0.029064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-bold.ttf
-  artifactKey: Guid(c24573627499dc340929d2c48a140632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-bold.ttf using Guid(c24573627499dc340929d2c48a140632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68840a4d595b5c414e939ca253d8d95e') in 0.023381 seconds 
-  Import took 0.027817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-medium.ttf
-  artifactKey: Guid(e21d4af4ada4a1442bcb27262f4c20a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-medium.ttf using Guid(e21d4af4ada4a1442bcb27262f4c20a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8f8d4ffdd12218df0d7bc20b87e9c6') in 0.023790 seconds 
-  Import took 0.028265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-light.ttf
-  artifactKey: Guid(07bc55e40a51311439ec10a387f4d877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-light.ttf using Guid(07bc55e40a51311439ec10a387f4d877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9e1e3ec80a8c930fb31fd9b1b81fa7') in 0.023441 seconds 
-  Import took 0.028013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-light.ttf
-  artifactKey: Guid(0bf4dd404c55e6a498cb2b9fc87a7d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-light.ttf using Guid(0bf4dd404c55e6a498cb2b9fc87a7d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4231c7298dd77e96beefef9cd5718a74') in 0.024797 seconds 
-  Import took 0.029414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Assests/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5419940e0ec9810a5763e73a4f897cf3') in 0.011679 seconds 
-  Import took 0.016209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-regular.ttf
-  artifactKey: Guid(a2e1135d37c3552429765a3d54afffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-regular.ttf using Guid(a2e1135d37c3552429765a3d54afffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e44a4e5aea4fe29d898577c5ab3f7ea') in 0.023495 seconds 
-  Import took 0.028033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-regular.ttf
-  artifactKey: Guid(5b510769ddba50845a81da25103a8b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-regular.ttf using Guid(5b510769ddba50845a81da25103a8b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03ddb619081182093034c3aa462c7f2') in 0.023406 seconds 
-  Import took 0.027593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-heavy.ttf
-  artifactKey: Guid(26b84f9316527c0498207087e1eafde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-heavy.ttf using Guid(26b84f9316527c0498207087e1eafde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fed7390e4526123b4d04e7ebed4bbe7') in 0.024828 seconds 
-  Import took 0.029174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-regular.ttf
-  artifactKey: Guid(8a30ff51f11ad8641b65063283610191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-regular.ttf using Guid(8a30ff51f11ad8641b65063283610191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4133d1d8cc5888d59d9cfdd64752cbfa') in 0.024720 seconds 
-  Import took 0.029278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-light.ttf
-  artifactKey: Guid(9eae05575b38e1740ac305d86ca76031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-light.ttf using Guid(9eae05575b38e1740ac305d86ca76031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87781410373a8a6d78b901879c7d7dfe') in 0.023033 seconds 
-  Import took 0.027350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-light.ttf
-  artifactKey: Guid(5fc14a699a1d36a4a8ae87d331d5ca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-light.ttf using Guid(5fc14a699a1d36a4a8ae87d331d5ca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad8bb5c5ce7411b13315702da53a5b1') in 0.025932 seconds 
-  Import took 0.030637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-thin.ttf
-  artifactKey: Guid(4f1f90e5319c1b647a883bd5191b6ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-thin.ttf using Guid(4f1f90e5319c1b647a883bd5191b6ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140690d334e8bcd13c3fdda2858b4571') in 0.023980 seconds 
-  Import took 0.028775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-thin.ttf
-  artifactKey: Guid(0d43dcac5e496144e868c7df425fb374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-thin.ttf using Guid(0d43dcac5e496144e868c7df425fb374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83795a7e92f0ee2e2a2efb759e63a80a') in 0.024975 seconds 
-  Import took 0.029584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-medium.ttf
-  artifactKey: Guid(693633b0f26082e4a9cb35d1f8fe5c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-medium.ttf using Guid(693633b0f26082e4a9cb35d1f8fe5c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca862779f6d7548c6477da71837f748') in 0.023539 seconds 
-  Import took 0.028288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-black.ttf
-  artifactKey: Guid(ed37ac09b7b397d499d47b77861e2fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-black.ttf using Guid(ed37ac09b7b397d499d47b77861e2fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff70091d2e57d6d386b5ebba82439d0') in 0.025017 seconds 
-  Import took 0.029998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-heavy.ttf
-  artifactKey: Guid(9d4178bd3264b6243a243a254b89f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-heavy.ttf using Guid(9d4178bd3264b6243a243a254b89f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd03d000402c23ed6f1e412b4a8f97c1') in 0.024975 seconds 
-  Import took 0.029144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-thin.ttf
-  artifactKey: Guid(a64c8a307d22d6e4e8266a7c8d2911d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-thin.ttf using Guid(a64c8a307d22d6e4e8266a7c8d2911d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830f3e2640b3433a67a596624b25d92') in 0.024835 seconds 
-  Import took 0.029397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-bold.ttf
-  artifactKey: Guid(d22d91c285ac82849bc2563a6707d20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-bold.ttf using Guid(d22d91c285ac82849bc2563a6707d20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926989a11ddd1712e7c95e3838f95f52') in 0.024784 seconds 
-  Import took 0.029465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-medium.ttf
-  artifactKey: Guid(6f1de2168b8b1de499b7aa122334162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-medium.ttf using Guid(6f1de2168b8b1de499b7aa122334162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59437f704fd3cba6502ad1c4257a16ab') in 0.023255 seconds 
-  Import took 0.027641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-light.ttf
-  artifactKey: Guid(b094e267f0d6a8341815a7eca30f04fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-light.ttf using Guid(b094e267f0d6a8341815a7eca30f04fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d614d3ab26aa9c5a217056204e757f1') in 0.023957 seconds 
-  Import took 0.028265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Assests/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48a2da97b9c8098af6d830dbbdd01ee') in 0.075527 seconds 
-  Import took 0.079999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-thin.ttf
-  artifactKey: Guid(5f3edff6d7c989d42855196f819dd804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-thin.ttf using Guid(5f3edff6d7c989d42855196f819dd804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66d349698499a8d5934c2a539f74f88') in 0.022954 seconds 
-  Import took 0.027130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-heavy.ttf
-  artifactKey: Guid(bdb6cca785a51c2418e27f3da4b87587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-heavy.ttf using Guid(bdb6cca785a51c2418e27f3da4b87587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a862b25dac2d11cdfd4518964f93f555') in 0.023347 seconds 
-  Import took 0.027806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-regular.ttf
-  artifactKey: Guid(7a744464177b17945a83e77b87e70d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-regular.ttf using Guid(7a744464177b17945a83e77b87e70d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d1e23c231d32511e1d35f11f6c1f7b') in 0.023719 seconds 
-  Import took 0.028341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-regular.ttf
-  artifactKey: Guid(bb7bf971099b1c14aa43c44bd24fc573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-regular.ttf using Guid(bb7bf971099b1c14aa43c44bd24fc573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd90fc6804710bf1c8927ca1a84bbaf') in 0.024485 seconds 
-  Import took 0.029000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-medium.ttf
-  artifactKey: Guid(ef284d01c8f49b74595294c5f4296784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-medium.ttf using Guid(ef284d01c8f49b74595294c5f4296784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690d6dbce6c98976badad2de41ab6d2f') in 0.023678 seconds 
-  Import took 0.028301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-black.ttf
-  artifactKey: Guid(bf882ea178a999648a63680a4a04ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-black.ttf using Guid(bf882ea178a999648a63680a4a04ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e0712d9ba09d42c862fd2061180399') in 0.023860 seconds 
-  Import took 0.028307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Assests/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19268c150eff968ddf08c45208511fba') in 0.012512 seconds 
-  Import took 0.017179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-bold.ttf
-  artifactKey: Guid(4c387066fd2bd6047a0508c3d7ea86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1c-bold.ttf using Guid(4c387066fd2bd6047a0508c3d7ea86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6e2b17d195d1ac7a6825c9cf2df417') in 0.023473 seconds 
-  Import took 0.027782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-bold.ttf
-  artifactKey: Guid(550e39a93bdf11c4eb1ab20d722406be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-bold.ttf using Guid(550e39a93bdf11c4eb1ab20d722406be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007eeee7439471da2b8f5009753625ae') in 0.022913 seconds 
-  Import took 0.027064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-bold.ttf
-  artifactKey: Guid(61becaa4fedde64479b92990d9ceb0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-bold.ttf using Guid(61becaa4fedde64479b92990d9ceb0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e06240d5fdb08f332c304c1c111df7') in 0.024704 seconds 
-  Import took 0.029687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.302297 seconds.
-  path: Assets/Script/ExitApplication.cs
-  artifactKey: Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ExitApplication.cs using Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb1b9f433addffeb194bba678d80344') in 0.046666 seconds 
-  Import took 0.051332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.024309 seconds.
-  path: Assets/Script/ExitApplication.cs
-  artifactKey: Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ExitApplication.cs using Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370041af6b5e1e111f6e1b6bbdda467a') in 0.006227 seconds 
-  Import took 0.011694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.591108 seconds.
-  path: Assets/Script/ExitApplication.cs
-  artifactKey: Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ExitApplication.cs using Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f3d0787bb6f81d31d2da3098c99a7c') in 0.006028 seconds 
-  Import took 0.011102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.038185 seconds.
-  path: Assets/Script/ExitApplication.cs
-  artifactKey: Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ExitApplication.cs using Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ada31546d71ee429873d478f875809b') in 0.006594 seconds 
-  Import took 0.011182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.810048 seconds.
-  path: Assets/Script/ExitApplication.cs
-  artifactKey: Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ExitApplication.cs using Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4aa0eac3e9930f773a78d3d0dc73a7') in 0.006003 seconds 
-  Import took 0.011048 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003321 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.206 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1207ms)
-		BeginReloadAssembly (153ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (984ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (337ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.5 MB.
-System memory in use after: 124.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3326.
-Total: 4.182300 ms (FindLiveObjects: 0.371300 ms CreateObjectMapping: 0.074100 ms MarkObjects: 3.383700 ms  DeleteObjects: 0.351900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 14.998660 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-black.ttf
-  artifactKey: Guid(713ad0fc8788e4843a05a1e67be11b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-black.ttf using Guid(713ad0fc8788e4843a05a1e67be11b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1f3862d4e4de30a8185511d029c199') in 0.212541 seconds 
-  Import took 0.217853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-thin.ttf
-  artifactKey: Guid(49c6f13e1689b5246aec6c7a3a1e2240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-thin.ttf using Guid(49c6f13e1689b5246aec6c7a3a1e2240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6e2f563ed492e87a87bdb42e363cda') in 0.029410 seconds 
-  Import took 0.033786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-bold.ttf
-  artifactKey: Guid(957961a2f2fb44042809544e043b69c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-bold.ttf using Guid(957961a2f2fb44042809544e043b69c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279d2d0183c2d6cba0a7655c027fa20b') in 0.026096 seconds 
-  Import took 0.030413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-regular.ttf
-  artifactKey: Guid(52ce23d6820ebbd4588456dd3c944df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-regular.ttf using Guid(52ce23d6820ebbd4588456dd3c944df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d98e59c493dc62b2d8a0f0ce2ab4a0a') in 0.027120 seconds 
-  Import took 0.031693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-light.ttf
-  artifactKey: Guid(57c92973c1933254089ea5b3c48adf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-light.ttf using Guid(57c92973c1933254089ea5b3c48adf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57e960b2075424006bcdfb58bce473') in 0.029214 seconds 
-  Import took 0.033437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-medium.ttf
-  artifactKey: Guid(c0d30712f09cc2649b1487cc257bf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-medium.ttf using Guid(c0d30712f09cc2649b1487cc257bf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b61a8edd7e436764952788c193ded93') in 0.025438 seconds 
-  Import took 0.029687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-light.ttf
-  artifactKey: Guid(381a3c75237c7a5488e9298f51a282a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-light.ttf using Guid(381a3c75237c7a5488e9298f51a282a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58cf41469b0f5cd4ce02214264691a5') in 0.025758 seconds 
-  Import took 0.030306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-thin.ttf
-  artifactKey: Guid(f82f6e0d549c45c4396246185a462e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2c-thin.ttf using Guid(f82f6e0d549c45c4396246185a462e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ebdf8a31f9cf815881c6ba24051af8') in 0.028825 seconds 
-  Import took 0.033299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-medium.ttf
-  artifactKey: Guid(33ba5080df195034aa054c58e86cf5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-medium.ttf using Guid(33ba5080df195034aa054c58e86cf5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea1d9676c1b63f0eaaf57bf5d61aed7') in 0.025915 seconds 
-  Import took 0.030437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-bold.ttf
-  artifactKey: Guid(1aed92eefee870545a2d5e19bfa51307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-bold.ttf using Guid(1aed92eefee870545a2d5e19bfa51307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd93c50c0ecaabcab7d058cceedb0afc') in 0.028482 seconds 
-  Import took 0.033346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-regular.ttf
-  artifactKey: Guid(52c557479f6adb642b45060b3b5c7c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2m-regular.ttf using Guid(52c557479f6adb642b45060b3b5c7c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c342e19c353972649d81957081c1190a') in 0.027372 seconds 
-  Import took 0.031934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-thin.ttf
-  artifactKey: Guid(aacf6a09bbf1e664788c2744ab470681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-thin.ttf using Guid(aacf6a09bbf1e664788c2744ab470681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565061cf7953ce911a73a0cc494a1f8b') in 0.026324 seconds 
-  Import took 0.030709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.455509 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-heavy.ttf
-  artifactKey: Guid(d2af8c7e8b712bb4a956d8ddca140d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-2p-heavy.ttf using Guid(d2af8c7e8b712bb4a956d8ddca140d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecaa386090e633e6bdbf3dfa22c697e') in 0.031644 seconds 
-  Import took 0.036334 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003259 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1201ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1007ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (355ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3366.
-Total: 4.199100 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.076700 ms MarkObjects: 3.409000 ms  DeleteObjects: 0.358900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003474 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1234ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1022ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3369.
-Total: 4.278300 ms (FindLiveObjects: 0.336000 ms CreateObjectMapping: 0.076000 ms MarkObjects: 3.507000 ms  DeleteObjects: 0.357900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003391 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.214 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1215ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1012ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
+			SetupTypeCache (324ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (350ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3372.
-Total: 4.779400 ms (FindLiveObjects: 0.373100 ms CreateObjectMapping: 0.080700 ms MarkObjects: 3.939400 ms  DeleteObjects: 0.384300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003696 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1148ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
 			SetupLoadedEditorAssemblies (335ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadAttributes (216ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.3 MB.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3375.
-Total: 4.184500 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.078100 ms MarkObjects: 3.408500 ms  DeleteObjects: 0.350300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 4.009000 ms (FindLiveObjects: 0.388500 ms CreateObjectMapping: 0.158100 ms MarkObjects: 3.430400 ms  DeleteObjects: 0.030400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2663,57 +204,171 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1032.392304 seconds.
-  path: Assets/Script/ExitApplication.cs
-  artifactKey: Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ExitApplication.cs using Guid(a40f2ca6ba8a5e44993029be676cef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca630772593f92184ebd053c2165700') in 0.014006 seconds 
-  Import took 0.018202 seconds .
+  Time since last request: 93.783821 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2ff401ab586c4b37a195eef97e3bdf') in 0.027196 seconds 
+  Import took 0.032365 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003308 seconds.
+Registered in 0.003306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (932ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3165.
+Total: 3.642300 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.074600 ms MarkObjects: 3.224100 ms  DeleteObjects: 0.019800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003592 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
+- Completed reload, in  1.132 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3168.
+Total: 3.648200 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.092300 ms MarkObjects: 3.206300 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (964ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (923ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
+			SetupTypeCache (319ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
 			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
+				BeforeProcessingInitializeOnLoad (106ms)
 				ProcessInitializeOnLoadAttributes (214ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.4 MB.
+Unloading 2600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.5 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3378.
-Total: 4.175500 ms (FindLiveObjects: 0.358100 ms CreateObjectMapping: 0.080700 ms MarkObjects: 3.373100 ms  DeleteObjects: 0.362100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3171.
+Total: 3.555500 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.075200 ms MarkObjects: 3.134000 ms  DeleteObjects: 0.023500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

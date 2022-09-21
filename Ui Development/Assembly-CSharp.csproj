@@ -59,12 +59,12 @@
     <Compile Include="Assets\Script\Player\FPS\PlayerController.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-    <Compile Include="Assets\Script\Menu\SettingsMenu.cs" />
+    <Compile Include="Assets\Script\Menu\MainMenu\SettingsMenu.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Script\Player\FPS\MouseMovement.cs" />
-    <Compile Include="Assets\Script\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Script\Menu\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -75,7 +75,7 @@
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Assets packages\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Script\Player\FPP2.0\WallRunning.cs" />
-    <Compile Include="Assets\SU3DJPFont\Demo\SampleScene.cs" />
+    <Compile Include="Assets\Assests\SU3DJPFont\Demo\SampleScene.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -116,6 +116,8 @@
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Script\Player\FPP2.0\Dashing.cs" />
+    <Compile Include="Assets\Script\Player\FPP2.0\Swinging.cs" />
+    <Compile Include="Assets\Script\Menu\InGameMenu\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assests\Font\Noto_Sans_JP\OFL.txt" />
@@ -123,15 +125,15 @@
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\SU3DJPFont\Fonts\MPlusTestflight63a\LICENSE_E.txt" />
-    <None Include="Assets\SU3DJPFont\TextMeshProFont\school-characters-list.txt" />
+    <None Include="Assets\Assests\SU3DJPFont\Fonts\MPlusTestflight63a\LICENSE_E.txt" />
+    <None Include="Assets\Assests\SU3DJPFont\TextMeshProFont\school-characters-list.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Assets packages\Plugins\Demigiant\DOTween\DOTween.XML" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\SU3DJPFont\Fonts\MPlusTestflight63a\README_J.txt" />
-    <None Include="Assets\SU3DJPFont\readme_jp.txt" />
+    <None Include="Assets\Assests\SU3DJPFont\Fonts\MPlusTestflight63a\README_J.txt" />
+    <None Include="Assets\Assests\SU3DJPFont\readme_jp.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Assests\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -141,16 +143,16 @@
     <None Include="Assets\Assests\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\SU3DJPFont\readme.txt" />
+    <None Include="Assets\Assests\SU3DJPFont\readme.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\SU3DJPFont\Fonts\MPlusTestflight63a\README_E.txt" />
+    <None Include="Assets\Assests\SU3DJPFont\Fonts\MPlusTestflight63a\README_E.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Assets packages\Plugins\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Assests\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\SU3DJPFont\Fonts\MPlusTestflight63a\LICENSE_J.txt" />
+    <None Include="Assets\Assests\SU3DJPFont\Fonts\MPlusTestflight63a\LICENSE_J.txt" />
     <None Include="Assets\Assests\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Assests\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>

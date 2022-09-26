@@ -22,7 +22,7 @@ public class PauseMenu : MonoBehaviour
 
     void PauseMenuStatus()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(pauseGameTirgger))
         {
             if (isPause)
             {

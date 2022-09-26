@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a13fdaf6582e1b4982aba64ccc16438, type: 3}
+  m_Name: Donut
+  m_EditorClassIdentifier: 
+  perfab: {fileID: 8744049713325614698, guid: 55e005c20afb7e54ca6f5a44a6058721, type: 3}
+  type: 0
+  description: A Donut
+  restoreHealthValue: 10

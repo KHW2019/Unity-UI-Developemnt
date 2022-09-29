@@ -4,20 +4,40 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public InventoryObject Inventory;
+    [Header("Reference")]
+    public InventoryObject inventory;
+
+    [Header("Input")]
+    public KeyCode SaveItem = KeyCode.Alpha9;
+    public KeyCode LoadItem = KeyCode.Alpha0;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(SaveItem))
+        {
+            inventory.SaveItem();
+            Debug.Log("Item has been Saved");
+        }
+        if (Input.GetKeyDown(LoadItem))
+        {
+            inventory.LoadItem();
+            Debug.Log("Item has been load");
+        }
+    }
 
     public void OnTriggerEnter(Collider other)
     {
         var item = other.GetComponent<CollectItem>();
         if (item)
         {
-            Inventory.AddItem(item.item, 1);
+            inventory.AddItem(item.item, 1);
             Destroy(other.gameObject);
         }
     }
 
+    //it will clear player inventory when application is close
     public void OnApplicationQuit()
     {
-        Inventory.Container.Clear();
+        inventory.Container.Clear();
     }
 }

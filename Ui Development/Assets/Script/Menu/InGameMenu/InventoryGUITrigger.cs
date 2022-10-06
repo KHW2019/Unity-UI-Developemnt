@@ -6,6 +6,7 @@ public class InventoryGUITrigger : MonoBehaviour
 {
     [Header("Reference")]
     public GameObject InventoryGUI;
+    public GameObject CrossHair;
 
     [Header("Input")]
     public KeyCode InventoryTrigger = KeyCode.B;
@@ -41,6 +42,7 @@ public class InventoryGUITrigger : MonoBehaviour
     public void CloseInventory()
     {
         InventoryGUI.SetActive(false);
+        CrossHair.SetActive(true);
         Time.timeScale = 1f;
         isOpen = false;
         CusorLocked();
@@ -49,6 +51,7 @@ public class InventoryGUITrigger : MonoBehaviour
     void OpenInventory()
     {
         InventoryGUI.SetActive(true);
+        CrossHair.SetActive(false);
         Time.timeScale = 0f;
         isOpen = true;
         CusorUnlocked();

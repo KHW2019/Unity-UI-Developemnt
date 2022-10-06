@@ -30,7 +30,7 @@ public class PlayerInventory : MonoBehaviour
         var item = other.GetComponent<CollectItem>();
         if (item)
         {
-            inventory.AddItem(item.item, 1);
+            inventory.AddItem(new Item(item.item), 1);
             Destroy(other.gameObject);
         }
     }
@@ -38,6 +38,6 @@ public class PlayerInventory : MonoBehaviour
     //it will clear player inventory when application is close
     public void OnApplicationQuit()
     {
-        inventory.Container.Clear();
+        inventory.Container.Items = new InventorySlot[36];
     }
 }

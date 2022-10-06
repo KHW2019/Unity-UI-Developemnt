@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a13fdaf6582e1b4982aba64ccc16438, type: 3}
   m_Name: Donut
   m_EditorClassIdentifier: 
-  perfab: {fileID: 8744049713325614698, guid: 55e005c20afb7e54ca6f5a44a6058721, type: 3}
+  Id: 0
+  UIDisplay: {fileID: 21300000, guid: 1426482d28a996c45924880218ede8ba, type: 3}
   type: 0
   description: A Donut
-  restoreHealthValue: 10
+  buffs: []

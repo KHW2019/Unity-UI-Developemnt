@@ -9,14 +9,15 @@ TagManager:
   - Default
   - Food
   - Equipment
+  - Tools
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wall
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

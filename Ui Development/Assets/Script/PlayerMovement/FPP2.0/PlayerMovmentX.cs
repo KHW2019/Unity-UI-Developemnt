@@ -474,6 +474,8 @@ public class PlayerMovmentX : MonoBehaviour
 
     public TextMeshProUGUI text_speed;
     public TextMeshProUGUI text_mode;
+    public TextMeshProUGUI NumberOfKnifes;
+
     private void TextStuff()
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);

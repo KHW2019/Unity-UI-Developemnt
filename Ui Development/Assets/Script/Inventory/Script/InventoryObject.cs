@@ -133,7 +133,7 @@ public class InventoryObject : ScriptableObject
 [System.Serializable]
 public class Inventory
 {   
-    public InventorySlot[] Items = new InventorySlot[36];
+    public InventorySlot[] Items = new InventorySlot[25];
 }
 
 [System.Serializable]

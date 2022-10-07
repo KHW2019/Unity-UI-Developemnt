@@ -474,7 +474,7 @@ public class PlayerMovmentX : MonoBehaviour
 
     public TextMeshProUGUI text_speed;
     public TextMeshProUGUI text_mode;
-    public TextMeshProUGUI NumberOfKnifes;
+    //public TextMeshProUGUI NumberOfKnifes;
 
     private void TextStuff()
     {

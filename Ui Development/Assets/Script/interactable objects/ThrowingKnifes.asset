@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f00473052379943b4da7bd0951dd8b, type: 3}
+  m_Name: ThrowingKnifes
+  m_EditorClassIdentifier: 
+  Id: 0
+  UIDisplay: {fileID: 21300000, guid: ae8bc6f66a961f84bb7e51ed0628b984, type: 3}
+  type: 2
+  description: A Thorwing Knifes
+  buffs:
+  - attribute: 4
+    value: 0
+    MaxBuffValue: 10
+    MinBuffValue: 7
+  - attribute: 0
+    value: 0
+    MaxBuffValue: 20
+    MinBuffValue: 15
+  - attribute: 2
+    value: 0
+    MaxBuffValue: 10
+    MinBuffValue: 7
+  - attribute: 6
+    value: 0
+    MaxBuffValue: 1
+    MinBuffValue: 1
+  - attribute: 5
+    value: 0
+    MaxBuffValue: 7
+    MinBuffValue: 5
+  Throwable: 1

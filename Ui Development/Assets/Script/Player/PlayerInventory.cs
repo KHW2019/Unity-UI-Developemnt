@@ -6,10 +6,12 @@ public class PlayerInventory : MonoBehaviour
 {
     [Header("Reference")]
     public InventoryObject inventory;
+    public MouseItem mouseItem = new MouseItem();
 
     [Header("Input")]
     public KeyCode SaveItem = KeyCode.Alpha9;
     public KeyCode LoadItem = KeyCode.Alpha0;
+
 
     private void Update()
     {
@@ -38,6 +40,6 @@ public class PlayerInventory : MonoBehaviour
     //it will clear player inventory when application is close
     public void OnApplicationQuit()
     {
-        inventory.Container.Items = new InventorySlot[36];
+        inventory.Container.Items = new InventorySlot[25];
     }
 }

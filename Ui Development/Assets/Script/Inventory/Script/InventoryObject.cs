@@ -115,7 +115,7 @@ public class InventoryObject : ScriptableObject
     [ContextMenu("Clear")]
     public void clear()
     {
-        Container = new Inventory();
+        Container.Clear();
     }
 
 //    public void OnAfterDeserialize()
@@ -130,18 +130,32 @@ public class InventoryObject : ScriptableObject
 //    }
 }
 
+//Number of Slot In Inventory
 [System.Serializable]
 public class Inventory
 {   
     public InventorySlot[] Items = new InventorySlot[25];
+    public void Clear()
+    {
+        for (int i = 0; i < Items.Length; i++)
+        {
+            Items[i].UpdateSlot(-1, new Item(), 0);
+        }
+    }
 }
 
 [System.Serializable]
 public class InventorySlot
 {
+    [Header("Slot Purpose")]
+    public ItemType[] AllowedItems = new ItemType[0];
+    public UserInterface parent;
+
+    [Header("Item Details")]
     public int ID = -1;
     public Item item;
     public int amount;
+    
 
     public InventorySlot()
     {
@@ -167,5 +181,22 @@ public class InventorySlot
     public void AddAmount(int value)
     {
         amount += value;
+    }
+
+    public bool isSlotFree(ItemData _item)
+    {
+        if(AllowedItems.Length <= 0)
+        {
+            return true;
+        }
+
+        for (int i = 0; i < AllowedItems.Length; i++)
+        {
+            if (_item.type == AllowedItems[i])
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

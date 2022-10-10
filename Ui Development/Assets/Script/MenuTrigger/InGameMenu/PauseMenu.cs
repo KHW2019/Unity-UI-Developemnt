@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     [Header("Reference")]
     public GameObject pauseMenuUI;
     public GameObject OptionMenuUI;
+    public GameObject Inventory;
 
     [Header("Input")]
     public KeyCode pauseGameTirgger = KeyCode.Escape;
@@ -33,6 +34,10 @@ public class PauseMenu : MonoBehaviour
             else if (isPause && pauseMenuUI.activeSelf)
             {
                 Resume();
+            }
+            else if (Inventory.activeSelf)
+            {
+
             }
             else
             {

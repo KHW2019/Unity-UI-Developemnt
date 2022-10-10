@@ -10,6 +10,6 @@ public class Equipment : ItemData
 
     public void Awake()
     {
-        type = ItemType.Equipment;
+        type = ItemType.Tools;
     }
 }

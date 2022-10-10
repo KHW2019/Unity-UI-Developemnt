@@ -22,7 +22,7 @@ public class DynamicInterface : UserInterface
     {
         
         itemsDisplayed = new Dictionary<GameObject, InventorySlot>();
-        for (int i = 0; i < PlayerInventory.Container.Items.Length; i++)
+        for (int i = 0; i < inventory.Container.Items.Length; i++)
         {
 
             var obj = Instantiate(InventoryPerfab, Vector3.zero, Quaternion.identity, transform);
@@ -34,7 +34,7 @@ public class DynamicInterface : UserInterface
             AddSlotEvent(obj, EventTriggerType.Drag, delegate { PointerDragging(obj); });
             AddSlotEvent(obj, EventTriggerType.EndDrag, delegate { PointerExitDrag(obj); });
 
-            itemsDisplayed.Add(obj, PlayerInventory.Container.Items[i]);
+            itemsDisplayed.Add(obj, inventory.Container.Items[i]);
         }
     }
     private Vector3 GetPosition(int i)

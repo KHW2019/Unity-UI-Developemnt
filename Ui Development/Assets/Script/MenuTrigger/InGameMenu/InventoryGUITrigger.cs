@@ -7,15 +7,16 @@ public class InventoryGUITrigger : MonoBehaviour
     [Header("Reference")]
     public GameObject InventoryGUI;
     public GameObject CrossHair;
+    public GameObject pause;
 
     [Header("Input")]
     public KeyCode InventoryTrigger = KeyCode.B;
 
-    private static bool isOpen = false;
+    public static bool isOpen = false;
 
     private void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -32,6 +33,10 @@ public class InventoryGUITrigger : MonoBehaviour
             {
                 CloseInventory();
             }
+            //else if ()
+            //{
+
+            //}
             else
             {
                 OpenInventory();

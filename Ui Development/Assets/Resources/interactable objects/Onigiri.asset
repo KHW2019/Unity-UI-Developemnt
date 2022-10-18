@@ -20,5 +20,9 @@ MonoBehaviour:
     wrapped in nori.
   itemData:
     Name: 
-    Id: -1
-    buffs: []
+    Id: 3
+    buffs:
+    - attribute: 9
+      value: 0
+      MaxBuffValue: 10
+      MinBuffValue: 10

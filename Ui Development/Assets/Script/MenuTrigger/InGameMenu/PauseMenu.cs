@@ -9,12 +9,15 @@ public class PauseMenu : MonoBehaviour
     [Header("Reference")]
     public GameObject pauseMenuUI;
     public GameObject OptionMenuUI;
-    public GameObject Inventory;
+    public GameObject CrossHair;
+    public GameObject InventoryUI;
+    public InventoryObject inventory;
+    public InventoryObject Equipment;
 
     [Header("Input")]
     public KeyCode pauseGameTirgger = KeyCode.Escape;
 
-    private static bool isPause = false;
+    public static bool isPause = false;
 
     // Update is called once per frame
     void Update()
@@ -35,7 +38,7 @@ public class PauseMenu : MonoBehaviour
             {
                 Resume();
             }
-            else if (Inventory.activeSelf)
+            else if (InventoryUI.activeSelf)
             {
 
             }
@@ -76,12 +79,14 @@ public class PauseMenu : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
+        CrossHair.SetActive(false);
     }
 
     void CusorLocked()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        CrossHair.SetActive(true);
     }
 
     public void backToMenu(int sceneIndex)
@@ -89,5 +94,7 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(sceneIndex);
         Time.timeScale = 1f;
         isPause = false;
+        inventory.Container.Clear();
+        Equipment.Container.Clear();
     }
 }

@@ -20,5 +20,5 @@ MonoBehaviour:
     directly by hand to where at least one hook may catch and hold onto objects
   itemData:
     Name: 
-    Id: -1
+    Id: 1
     buffs: []

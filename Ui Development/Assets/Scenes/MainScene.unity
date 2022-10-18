@@ -712,7 +712,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -777,7 +777,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1339142959}
   OptionMenuUI: {fileID: 771784724}
-  Inventory: {fileID: 450006689}
+  CrossHair: {fileID: 772635512}
+  InventoryUI: {fileID: 450006689}
+  inventory: {fileID: 11400000, guid: 7064800a3ae9f2546914f9609cfc55ff, type: 2}
+  Equipment: {fileID: 11400000, guid: 64a2234900511d245a032730f453e129, type: 2}
   pauseGameTirgger: 27
 --- !u!114 &114424056
 MonoBehaviour:
@@ -793,6 +796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InventoryGUI: {fileID: 450006689}
   CrossHair: {fileID: 772635512}
+  pause: {fileID: 1339142959}
   InventoryTrigger: 98
 --- !u!1001 &116370561
 PrefabInstance:
@@ -1944,7 +1948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ae1f0ac3512f96e4389af3d00e74f875, type: 2}
+  item: {fileID: 11400000, guid: 927f4ed371a85524198e584ae53fbaef, type: 2}
 --- !u!4 &278428469
 Transform:
   m_ObjectHideFlags: 0
@@ -3848,7 +3852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: 64a2234900511d245a032730f453e129, type: 2}
-  player: {fileID: 2124897714}
   slots:
   - {fileID: 866558823}
   - {fileID: 288097661}
@@ -4082,7 +4085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: a1c460cf452d96f4e80c64f4e608615b, type: 2}
+  item: {fileID: 11400000, guid: 1422f66f4456c534d99a6ef950ef905a, type: 2}
 --- !u!1 &436756545
 GameObject:
   m_ObjectHideFlags: 0
@@ -4701,7 +4704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ae1f0ac3512f96e4389af3d00e74f875, type: 2}
+  item: {fileID: 11400000, guid: 927f4ed371a85524198e584ae53fbaef, type: 2}
 --- !u!4 &540022510
 Transform:
   m_ObjectHideFlags: 0
@@ -7782,7 +7785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &772635513
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7952,7 +7955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ae1f0ac3512f96e4389af3d00e74f875, type: 2}
+  item: {fileID: 11400000, guid: 927f4ed371a85524198e584ae53fbaef, type: 2}
 --- !u!135 &796569964
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8161,7 +8164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ae1f0ac3512f96e4389af3d00e74f875, type: 2}
+  item: {fileID: 11400000, guid: 927f4ed371a85524198e584ae53fbaef, type: 2}
 --- !u!4 &837361871
 Transform:
   m_ObjectHideFlags: 0
@@ -8516,7 +8519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ae1f0ac3512f96e4389af3d00e74f875, type: 2}
+  item: {fileID: 11400000, guid: 927f4ed371a85524198e584ae53fbaef, type: 2}
 --- !u!4 &879104310
 Transform:
   m_ObjectHideFlags: 0
@@ -12529,6 +12532,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1947124526412237969, guid: 9e4679c4731bcb5498a0495291f55153, type: 3}
+      propertyPath: grapplingGun
+      value: 
+      objectReference: {fileID: 2124897709}
+    - target: {fileID: 1947124526412237974, guid: 9e4679c4731bcb5498a0495291f55153, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e4679c4731bcb5498a0495291f55153, type: 3}
 --- !u!4 &1541617718 stripped
@@ -12859,7 +12870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ae1f0ac3512f96e4389af3d00e74f875, type: 2}
+  item: {fileID: 11400000, guid: 927f4ed371a85524198e584ae53fbaef, type: 2}
 --- !u!4 &1583050888
 Transform:
   m_ObjectHideFlags: 0
@@ -13516,7 +13527,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: 7064800a3ae9f2546914f9609cfc55ff, type: 2}
-  player: {fileID: 2124897714}
   InventoryPerfab: {fileID: 1408122766577222671, guid: d7b38e950a1d76545a45928843b5c390, type: 3}
   StartX: -100
   StartY: 100
@@ -15413,7 +15423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: ae1f0ac3512f96e4389af3d00e74f875, type: 2}
+  item: {fileID: 11400000, guid: 927f4ed371a85524198e584ae53fbaef, type: 2}
 --- !u!4 &1905281784
 Transform:
   m_ObjectHideFlags: 0
@@ -16275,7 +16285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 53a74d2927c962b4381679be8ae01b6e, type: 2}
+  item: {fileID: 11400000, guid: 24f8e31179cdc394680468d93212eb9b, type: 2}
 --- !u!1001 &2050227596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16919,7 +16929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9111ae7291557f4d8873b07e5c023d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: b2c2054c8722b77408925c569e0df54d, type: 2}
+  item: {fileID: 11400000, guid: f18f963d8b956e54c9e10c1c2a8b23f0, type: 2}
 --- !u!1 &2110686963
 GameObject:
   m_ObjectHideFlags: 3
@@ -16965,13 +16975,13 @@ GameObject:
   - component: {fileID: 2124897706}
   - component: {fileID: 2124897707}
   - component: {fileID: 2124897708}
-  - component: {fileID: 2124897709}
   - component: {fileID: 2124897710}
   - component: {fileID: 2124897711}
-  - component: {fileID: 2124897713}
   - component: {fileID: 2124897712}
   - component: {fileID: 2124897714}
   - component: {fileID: 2124897715}
+  - component: {fileID: 2124897713}
+  - component: {fileID: 2124897709}
   m_Layer: 7
   m_Name: FPP2.0
   m_TagString: Player
@@ -17324,8 +17334,8 @@ MonoBehaviour:
     m_Bits: 8
   orientation: {fileID: 776156875}
   rb: {fileID: 2124897705}
-  horizontalThrustForce: 2000
-  forwardThrustForce: 3000
+  horizontalThrustForce: 20
+  forwardThrustForce: 30
   extendCableSpeed: 20
   perdictionSphereCastRaduis: 3
   perdictionPoint: {fileID: 1312226124}
@@ -17342,8 +17352,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: 7064800a3ae9f2546914f9609cfc55ff, type: 2}
+  Equipment: {fileID: 11400000, guid: 64a2234900511d245a032730f453e129, type: 2}
   SaveItem: 57
   LoadItem: 48
+  ListOfAttributes:
+  - type: 0
+    value:
+      baseValue: 20
+      modifiedValue: 0
+  - type: 1
+    value:
+      baseValue: 50
+      modifiedValue: 0
+  - type: 2
+    value:
+      baseValue: 20
+      modifiedValue: 0
+  - type: 3
+    value:
+      baseValue: 15
+      modifiedValue: 0
 --- !u!114 &2124897715
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,5 +19,21 @@ MonoBehaviour:
     masonry trowel.
   itemData:
     Name: 
-    Id: -1
-    buffs: []
+    Id: 2
+    buffs:
+    - attribute: 6
+      value: 0
+      MaxBuffValue: 1
+      MinBuffValue: 1
+    - attribute: 4
+      value: 0
+      MaxBuffValue: 15
+      MinBuffValue: 10
+    - attribute: 5
+      value: 0
+      MaxBuffValue: 10
+      MinBuffValue: 7
+    - attribute: 7
+      value: 0
+      MaxBuffValue: 15
+      MinBuffValue: 7

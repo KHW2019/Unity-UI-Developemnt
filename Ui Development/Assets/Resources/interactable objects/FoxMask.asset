@@ -18,5 +18,21 @@ MonoBehaviour:
   description: To protect your head
   itemData:
     Name: 
-    Id: -1
-    buffs: []
+    Id: 0
+    buffs:
+    - attribute: 0
+      value: 0
+      MaxBuffValue: 30
+      MinBuffValue: 10
+    - attribute: 1
+      value: 0
+      MaxBuffValue: 10
+      MinBuffValue: 5
+    - attribute: 2
+      value: 0
+      MaxBuffValue: 15
+      MinBuffValue: 10
+    - attribute: 3
+      value: 0
+      MaxBuffValue: 20
+      MinBuffValue: 10

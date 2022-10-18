@@ -14,7 +14,9 @@ public class CollectItem : MonoBehaviour, ISerializationCallbackReceiver
 
     public void OnBeforeSerialize()
     {
-        //GetComponentInChildren<SpriteRenderer>().sprite = item.UIDisplay;
-        //EditorUtility.SetDirty(GetComponentInChildren<SpriteRenderer>());
+//#if UNITY_EDITOR
+//        GetComponentInChildren<SpriteRenderer>().sprite = item.UIDisplay;
+//        EditorUtility.SetDirty(GetComponentInChildren<SpriteRenderer>());
+//#endif
     }
 }

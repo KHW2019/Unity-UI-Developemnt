@@ -26,23 +26,23 @@ public enum Attributes
     ThrowingDmg,
     NumberOfThrows,
     AtkBonus,
-    
+
     //Defend/ Health Status
     DenfenceBounus,
     HealthRegen,
     BonusHealth
 }
 
+[CreateAssetMenu(fileName = "New Item", menuName = "Inventory System/Items/item")]
 public class ItemData : ScriptableObject
 {
-    //public GameObject perfab;
     [Header("states")]
-    public int Id;
     public Sprite UIDisplay;
+    public bool stackable;
     public ItemType type;
     [TextArea(15,20)]
     public string description;
-    public ItemBuff[] buffs;
+    public Item itemData = new Item();
 
     public Item CreateItem()
     {
@@ -55,7 +55,7 @@ public class ItemData : ScriptableObject
 public class Item
 {
     public string Name;
-    public int Id;
+    public int Id = -1;
     public ItemBuff[] buffs;
 
     public Item()
@@ -67,21 +67,21 @@ public class Item
     public Item(ItemData item)
     {
         Name = item.name;
-        Id = item.Id;
-        buffs = new ItemBuff[item.buffs.Length];
+        Id = item.itemData.Id;
+        buffs = new ItemBuff[item.itemData.buffs.Length];
 
         for (int i = 0; i < buffs.Length; i++)
         {
-            buffs[i] = new ItemBuff(item.buffs[i].MinBuffValue, item.buffs[i].MaxBuffValue)
+            buffs[i] = new ItemBuff(item.itemData.buffs[i].MinBuffValue, item.itemData.buffs[i].MaxBuffValue)
             {
-               attribute = item.buffs[i].attribute
+               attribute = item.itemData.buffs[i].attribute
             };
         }
     }
 }
 
 [System.Serializable]
-public class ItemBuff
+public class ItemBuff : IModifiers
 {
     public Attributes attribute;
     public int value;
@@ -92,12 +92,17 @@ public class ItemBuff
     {
         MinBuffValue = _MinBuffValue;
         MaxBuffValue = _MaxBuffBValue;
+        GenerateValue();
+    }
 
+    public void Addvalue(ref int baseValue)
+    {
+        baseValue += value;
     }
 
     public void GenerateValue()
     {
-        value = UnityEngine.Random.Range(MinBuffValue, MaxBuffValue);
+        value = Random.Range(MinBuffValue, MaxBuffValue);
     }
 
 }
